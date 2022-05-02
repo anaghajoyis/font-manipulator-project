@@ -1,0 +1,32 @@
+body{
+    background-image: url('background.jpg');
+    font-size: 25px;
+}
+.header{
+    background-color: #a5ffd6;
+    font-size: 45px;
+    font-family: 'Diplomata SC', cursive;
+    font-weight: bold;
+    width: 90%;
+    border-radius: 20px;
+}
+.note{
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+}
+.under{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    color: blueviolet;
+    background-color: rgb(191, 187, 255);
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+}
+canvas{
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 5px 5px blue;
+    background-color: white;
+}
