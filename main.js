@@ -12,8 +12,18 @@ function modelLoaded(){
 function gotPoses(result){
     if(result.length>0){
         console.log(result);
+        leftWristX = result[0].pose.leftWrist.x;
+        console.log("Left - "+leftWristX);
+        rightWristX = result[0].pose.rightWrist.x;
+        console.log("Right - "+rightWristX);
+        difference = floor(leftWristX-rightWristX);
+        console.log("Diff - "+difference);
     }
 }
 function draw(){
 background('#bbd0ff');
+textSize(difference);
+fill('#fdc5f5');
+text('Anagha 💖',50,400);
+
 }
